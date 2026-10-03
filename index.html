@@ -4,7 +4,7 @@
     <title>My First GitHub Website</title>
     
     <style>
-        /* Raw Google Font Data Embedded Directly */
+        /* Raw Google Font Data Embedded Directly with Complete URLs */
         @font-face {
           font-family: 'Sniglet';
           font-style: normal;
@@ -27,15 +27,19 @@
           src: url(https://gstatic.com) format('truetype');
         }
 
-        /* Apply Sniglet font to the whole website */
+        /* Set background gradient and apply Sniglet font + white text to the whole site */
         body {
             font-family: 'Sniglet', system-ui, sans-serif;
+            color: #ffffff; /* Makes all standard text white for contrast */
+            background: #020024;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
         }
 
         /* Apply Ultra font specifically to the main heading */
         h1 {
             font-family: 'Ultra', serif;
             font-weight: 400;
+            color: #ffffff; /* Ensures the heading is also white */
         }
 
         /* for may text */
@@ -47,10 +51,6 @@
         .imageflexcontent { 
             margin-left: 0px; 
             margin-top: 0; 
-        }
-        body{
-            background: #020024;
-            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
         }
  
     </style>
