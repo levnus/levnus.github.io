@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Font Test</title>
+    <title>My First GitHub Website</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&family=Ultra&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
     <style>
         body {
-            background: black;
             color: white;
-            font-family: 'Sniglet', sans-serif;
+            font-family: 'Sniglet', system-ui, sans-serif;
+            background: linear-gradient(
+                90deg,
+                rgba(2, 0, 36, 1) 0%,
+                rgba(9, 9, 121, 1) 35%,
+                rgba(0, 212, 255, 1) 100%
+            );
         }
 
         h1 {
             font-family: 'Ultra', serif;
+            font-weight: 400;
+        }
+
+        .imageflex {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .imageflexcontent {
+            margin-left: 0;
+            margin-top: 0;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>ULTRA FONT TEST</h1>
-    <p>SNIGLET FONT TEST</p>
+    <h1>Website for monkeys</h1>
+    <p>... and smonkeys</p>
+
+    <div class="imageflex">
+        <img src="https://i.postimg.cc/GptK6Xtz/unnamed.jpg" alt="may">
+        <p class="imageflexcontent">May</p>
+    </div>
 
 </body>
 </html>
