@@ -4,12 +4,31 @@
     <title>My First GitHub Website</title>
     <!-- for body font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&family=Ultra&display=swap" rel="stylesheet">
+    
     <style>
+        /* Apply Sniglet font to the whole website */
+        body {
+            font-family: 'Sniglet', system-ui, sans-serif;
+        }
+
+        /* Apply Ultra font specifically to the main heading */
+        h1 {
+            font-family: 'Ultra', serif;
+            font-weight: 400;
+        }
+
         /* for may text */
-        .imageflex { display: flex; }
-        .imageflexcontent { margin-left: 0px; margin-top: 0; }
+        .imageflex { 
+            display: flex; 
+            align-items: center; /* Vertically aligns the text 'May' with the middle of the image */
+            gap: 10px;           /* Adds a little breathing room between the image and the text */
+        }
+        .imageflexcontent { 
+            margin-left: 0px; 
+            margin-top: 0; 
+        }
     </style>
 </head>
 <body>
