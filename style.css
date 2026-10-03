@@ -1,3 +1,25 @@
 body {
   color: white; /* This makes all text on the website white by default */
-}
+            font-family: 'Sniglet', system-ui, sans-serif;
+            background: #020024;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            color: white; /* Optional: Makes text readable against the dark background */
+        }
+
+        /* Apply Ultra font specifically to the main heading */
+        h1 {
+            font-family: 'Ultra', serif;
+            font-weight: 400;
+        }
+
+        /* Layout styles for the image and text alignment */
+        .imageflex {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .imageflexcontent {
+            margin-left: 0px;
+            margin-top: 0;
+        }
