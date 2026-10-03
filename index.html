@@ -2,12 +2,31 @@
 <html>
 <head>
     <title>My First GitHub Website</title>
-    <!-- for body font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&family=Ultra&display=swap" rel="stylesheet">
     
     <style>
+        /* Raw Google Font Data Embedded Directly */
+        @font-face {
+          font-family: 'Sniglet';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://gstatic.com) format('truetype');
+        }
+        @font-face {
+          font-family: 'Sniglet';
+          font-style: normal;
+          font-weight: 800;
+          font-display: swap;
+          src: url(https://gstatic.com) format('truetype');
+        }
+        @font-face {
+          font-family: 'Ultra';
+          font-style: normal;
+          font-weight: 400;
+          font-display: swap;
+          src: url(https://gstatic.com) format('truetype');
+        }
+
         /* Apply Sniglet font to the whole website */
         body {
             font-family: 'Sniglet', system-ui, sans-serif;
@@ -22,8 +41,8 @@
         /* for may text */
         .imageflex { 
             display: flex; 
-            align-items: center; /* Vertically aligns the text 'May' with the middle of the image */
-            gap: 10px;           /* Adds a little breathing room between the image and the text */
+            align-items: center; 
+            gap: 10px;           
         }
         .imageflexcontent { 
             margin-left: 0px; 
